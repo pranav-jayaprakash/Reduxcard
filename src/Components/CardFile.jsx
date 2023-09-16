@@ -4,6 +4,7 @@ import { UserContext } from './Context'
 function CardFile() {
 
     const {User} = useContext(UserContext)
+    console.log(User,'Dataaaaaaaaaa')
 
 
   return (
