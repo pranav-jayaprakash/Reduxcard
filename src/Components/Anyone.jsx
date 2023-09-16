@@ -10,7 +10,9 @@ function Anyone() {
     useEffect(()=>{
         const Dataget = async () => {
             try {
-               const result = await axios.get('') 
+               const result = await axios.get('') ;
+               dispatch({type:'LoginSuccess',payload:result.data})
+
             } catch (error) {
                 console.log(error);
                 
