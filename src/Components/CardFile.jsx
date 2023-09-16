@@ -9,7 +9,12 @@ function CardFile() {
   return (
     <div>
 
+        {User.map((dt)=>(
+
         
+        <h1></h1>
+
+        ))}
 
 
 

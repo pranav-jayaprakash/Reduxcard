@@ -10,7 +10,7 @@ function Anyone() {
     useEffect(()=>{
         const Dataget = async () => {
             try {
-               const result = await axios.get('') ;
+               const result = await axios.get('https://jsonplaceholder.typicode.com/albums') ;
                dispatch({type:'LoginSuccess',payload:result.data})
 
             } catch (error) {
