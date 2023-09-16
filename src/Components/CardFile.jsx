@@ -20,7 +20,7 @@ function CardFile() {
 
   return (
     <div>
-      <Row xs={1} md={2} className="g-4">
+      <Row xs={1} md={3} className="g-4">
         {User.slice(0, count).map((dt) => (
           <Col>
             <Card>
